@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import Question
 
 def index(request):
-    return HttpResponse("Hello Team MVD, Now we can design web based user interface for any aplication.")
+    return HttpResponse("Hello Team MVD, Now we can design web based user interface for any application.")
 
 def detail(request, question_id):
     return HttpResponse("You're looking at question %s." % question_id)
